@@ -1,0 +1,21 @@
+1. Python (no need to install if already installed)
+2. uv --version	(pip install uv if not installed)
+
+3. Check uv location 
+python
+>>> import shutil
+>>> print(shutil.which("uv"))
+
+
+uv pip list  
+uv python list
+
+To install any specific python version
+uv python install cpython-3.14.0b2-windows-x86_64-none
+
+
+create virtual environment
+uv venv epa_ve --python cpython-3.12.10-windows-x86_64-none
+
+
+uv pip install -r requirements.txt
