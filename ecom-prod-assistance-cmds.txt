@@ -19,3 +19,9 @@ uv venv epa_ve --python cpython-3.12.10-windows-x86_64-none
 
 
 uv pip install -r requirements.txt
+
+
+configure git username and email
+git config --global user.name "rk89git"
+git config user.email "kumaar079@gmail.com"
+
