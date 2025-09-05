@@ -25,3 +25,14 @@ configure git username and email
 git config --global user.name "rk89git"
 git config user.email "kumaar079@gmail.com"
 
+
+DataStax Vector DB (AstraDB):
+https://astra.datastax.com/org/0bbf259f-c875-4f25-a930-b98947b42305/create-database
+
+
+Compare Vector databases
+http://superlinked.com/vector-db-comparison
+
+
+Run Streamlit ui:
+Streamlit run <file_path_of_streamlit_python_file>
